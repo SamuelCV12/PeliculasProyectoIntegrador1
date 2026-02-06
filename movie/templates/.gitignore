@@ -1,0 +1,3 @@
+*.pyc 
+#ignora los archivos .pyc que se generan al ejecutar el proyecto
+#es decir cuando se hace git add y git commit
