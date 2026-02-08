@@ -21,4 +21,6 @@ from movie import views as movieViews
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', movieViews.home),
+    path('about/', movieViews.about),
+    #el path about/ se asigna a la función about en views.py, que renderiza el archivo about.html
 ]
